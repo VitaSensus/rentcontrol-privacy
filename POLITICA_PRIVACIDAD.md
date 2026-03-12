@@ -1,95 +1,123 @@
-# Política de privacidad — Factura Rápida
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>RentControl Pro — Privacy Policy</title>
+  <style>
+    body { font-family: system-ui, -apple-system, sans-serif; max-width: 600px; margin: 2rem auto; padding: 0 1rem; line-height: 1.6; color: #333; }
+    h1 { font-size: 1.5rem; }
+    h2 { font-size: 1.1rem; margin-top: 1.5rem; }
+    p, li { margin: 0.5rem 0; }
+    .nav { margin-bottom: 2rem; }
+    .nav a { margin-right: 1rem; }
+  </style>
+</head>
+<body>
+  <nav class="nav">
+    <a href="#en">English</a>
+    <a href="#ru">Русский</a>
+    <a href="#es">Español</a>
+  </nav>
 
-**Última actualización:** febrero 2025
+  <section id="en">
+    <h1>RentControl Pro — Privacy Policy</h1>
+    <p>Last updated: February 2025</p>
+    <h2>1. Summary</h2>
+    <p>RentControl Pro is a rental management application. We do not sell or share your data with third parties. All information is stored locally on your device.</p>
+    <h2>2. Data We Collect</h2>
+    <p>The app stores only the data you enter:</p>
+    <ul>
+      <li>Owner information (name, email)</li>
+      <li>Property details (title, rent amount, payment day)</li>
+      <li>Tenant information (name, phone, lease dates)</li>
+      <li>Payments and expenses (amounts, statuses, dates)</li>
+      <li>App preferences (language, currency, notifications)</li>
+    </ul>
+    <h2>3. Storage</h2>
+    <p>All data is stored locally on your device in a SQLite database. Nothing is sent to any server, except when you explicitly choose to send a report by email or share a PDF (WhatsApp, email, etc.) via the system Share function.</p>
+    <h2>4. Permissions</h2>
+    <ul>
+      <li>INTERNET: for sending emails and sharing reports</li>
+      <li>NOTIFICATIONS: for payment reminders (only if you enable them)</li>
+      <li>RECEIVE_BOOT_COMPLETED: to restore reminders after device reboot</li>
+    </ul>
+    <h2>5. Your Rights</h2>
+    <ul>
+      <li>You can delete all data by uninstalling the app</li>
+      <li>No tracking or advertising</li>
+      <li>We do not sell or transfer data to third parties</li>
+    </ul>
+    <h2>6. Contact</h2>
+    <p>For questions about this policy, contact the developer through the app listing in the store.</p>
+  </section>
 
-Esta política describe cómo la aplicación **Factura Rápida** (en adelante, «la app») trata la información relacionada con tu privacidad y la de tu dispositivo. Al usar la app, aceptas esta política.
+  <hr style="margin: 3rem 0;">
 
----
+  <section id="ru">
+    <h1>RentControl Pro — Политика конфиденциальности</h1>
+    <p>Дата обновления: Февраль 2025</p>
+    <h2>1. Кратко</h2>
+    <p>RentControl Pro — приложение для учёта аренды. Мы не продаём и не передаём ваши данные третьим лицам. Вся информация хранится локально на вашем устройстве.</p>
+    <h2>2. Какие данные собираются</h2>
+    <p>Приложение хранит только данные, которые вы вводите:</p>
+    <ul>
+      <li>Сведения о владельцах (имя, email)</li>
+      <li>Объекты недвижимости (название, аренда, день оплаты)</li>
+      <li>Сведения об арендаторах (имя, телефон, даты аренды)</li>
+      <li>Платежи и расходы (суммы, статусы, даты)</li>
+      <li>Настройки приложения (язык, валюта, уведомления)</li>
+    </ul>
+    <h2>3. Хранение</h2>
+    <p>Все данные хранятся локально в базе SQLite на устройстве. Ничего не отправляется на сервер, за исключением случаев, когда вы явно выбираете отправить отчёт по email или поделиться PDF через системную функцию «Поделиться».</p>
+    <h2>4. Разрешения</h2>
+    <ul>
+      <li>ИНТЕРНЕТ: для отправки email и шаринга отчётов</li>
+      <li>УВЕДОМЛЕНИЯ: для напоминаний о платежах (только если вы их включили)</li>
+      <li>RECEIVE_BOOT_COMPLETED: для возобновления напоминаний после перезагрузки</li>
+    </ul>
+    <h2>5. Ваши права</h2>
+    <ul>
+      <li>Вы можете удалить все данные, удалив приложение</li>
+      <li>Нет отслеживания и рекламы</li>
+      <li>Мы не продаём и не передаём данные третьим лицам</li>
+    </ul>
+    <h2>6. Контакты</h2>
+    <p>По вопросам обращайтесь к разработчику через страницу приложения в магазине.</p>
+  </section>
 
-## 1. Responsable
+  <hr style="margin: 3rem 0;">
 
-La app Factura Rápida es ofrecida por el desarrollador indicado en la ficha de la aplicación en Google Play. Para cuestiones sobre privacidad puedes contactar a través de la dirección de contacto que figure en la tienda o en la propia aplicación (por ejemplo, en Ajustes).
-
----
-
-## 2. Qué datos utiliza la aplicación
-
-La app utiliza únicamente los datos que **tú introduces** o que se generan al usarla:
-
-- **Datos del perfil de autónomo:** nombre, NIF, dirección, nombre de empresa (si lo indicas), valores por defecto de IVA/IRPF, número inicial de factura. Opcionalmente, imagen de logotipo si la añades.
-- **Datos de clientes:** nombre, NIF y datos de contacto que introduzcas al crear o editar clientes.
-- **Datos de facturas y presupuestos:** número, fecha, conceptos, importes, IVA, IRPF y totales. Todo ello se usa para generar los PDF que tú envías.
-- **Datos técnicos relacionados con compras:** si utilizas la suscripción Pro o la compra de documentos adicionales, Google Play procesa el pago y puede asociar un identificador de transacción a tu cuenta de Google. Nosotros **no recibimos** datos bancarios ni datos personales tuyos derivados de la compra; solo nos consta, a través de Google Play, si tienes una suscripción o compra activa para desbloquear funciones en la app.
-
-Nada de lo anterior se envía a servidores propios del desarrollador. **No tenemos base de datos central** donde se guarden tus datos.
-
----
-
-## 3. Dónde se almacenan los datos
-
-- **En tu dispositivo:** todos los datos de perfil, clientes, facturas y presupuestos se guardan **solo en tu teléfono o tablet** (almacenamiento local: base de datos y preferencias de la app).
-- **No se envían a nuestros servidores:** la app no sube ni sincroniza tus datos con ningún servidor del desarrollador.
-- **Compartir PDF:** cuando envías una factura o presupuesto por WhatsApp, correo u otra aplicación, **tú decides** a quién se la envías. Esa acción la realizas desde tu dispositivo; nosotros no recibimos ni almacenamos el contenido ni los destinatarios.
-
----
-
-## 4. Compartición con terceros
-
-- **Google Play:** si compras la suscripción Pro o documentos adicionales, el pago y la gestión de la suscripción los realiza **Google**. Se aplican la política de privacidad y los términos de Google Pay / Google Play. Nosotros no recibimos datos de tu tarjeta ni datos personales derivados del pago.
-- **Aplicaciones de envío (WhatsApp, correo, etc.):** al compartir un PDF, la app abre la aplicación que elijas (por ejemplo WhatsApp o Gmail). Esas aplicaciones tienen sus propias políticas de privacidad; nosotros no controlamos qué hacen con el archivo una vez enviado.
-- **No vendemos ni cedemos** tus datos a terceros para publicidad ni para otros fines ajenos al funcionamiento de la app.
-
----
-
-## 5. Seguridad y conservación
-
-- Los datos permanecen en tu dispositivo bajo las medidas de seguridad habituales del sistema operativo (Android).
-- No utilizamos cifrado adicional propio para la base de datos local; la protección depende del bloqueo y del uso que hagas de tu dispositivo.
-- Los datos se conservan mientras la app esté instalada. Si desinstalas la app, **todos los datos locales se eliminan** con la desinstalación.
-
----
-
-## 6. Tus derechos
-
-- **Acceso y corrección:** puedes ver y editar tus datos en cualquier momento dentro de la app (perfil, clientes, etc.).
-- **Eliminación:** puedes eliminar clientes, facturas y presupuestos desde la app. Para eliminar **todos** los datos (incluido el perfil), desinstala la aplicación.
-- **Portabilidad:** los PDF que generas son tuyos; puedes guardarlos o enviarlos fuera de la app como desees.
-- Si consideras que el tratamiento de tus datos no se ajusta a la normativa aplicable, puedes dirigirte a la autoridad de protección de datos que corresponda (en España, la AEPD).
-
----
-
-## 7. Menores
-
-La app está dirigida a usuarios adultos (autónomos o profesionales). No está diseñada para menores de edad. No recopilamos conscientemente datos de menores.
-
----
-
-## 8. Cambios en esta política
-
-Podemos actualizar esta política de privacidad en el futuro. La versión vigente será la publicada en esta página, con la fecha de «Última actualización» indicada al inicio. Te recomendamos revisarla de vez en cuando. El uso continuado de la app tras cambios relevantes puede entenderse como aceptación de la nueva versión.
-
----
-
-## 9. Resumen
-
-- **No recopilamos** tus datos en nuestros servidores.
-- Todo se guarda **solo en tu dispositivo**.
-- **No vendemos** ni compartimos tus datos con terceros para fines ajenos a la app.
-- Las **compras** se gestionan por Google Play; aplican las políticas de Google.
-- Puedes **eliminar todo** desinstalando la app.
-
-Si tienes dudas sobre esta política, puedes contactarnos a través de la información de contacto indicada en Google Play o en la app.
-
----
-
-## Cómo usarla en Google Play
-
-1. **Publica este texto en una URL.** Opciones:
-   - Tu propia web: crea una página (por ejemplo `tudominio.com/privacidad-factura-rapida`) y pega el contenido.
-   - **GitHub Pages:** crea un repositorio, añade un archivo `privacidad.md` o `privacidad.html` con este texto, activa GitHub Pages; la URL será `https://tuusuario.github.io/nombre-repo/privacidad`.
-   - **Notion / Google Sites / similar:** crea una página pública, pega el texto y copia el enlace.
-
-2. **En Google Play Console:**  
-   Ve a tu app → **Política** (o **Ficha de la tienda** / **Política de privacidad**) → campo **URL de la política de privacidad** → pega la URL de la página donde hayas publicado este texto.
-
-3. La URL debe ser **accesible públicamente** (sin login) y **estable**; no uses enlaces que cambien o caduquen.
+  <section id="es">
+    <h1>RentControl Pro — Política de Privacidad</h1>
+    <p>Última actualización: Febrero 2025</p>
+    <h2>1. Resumen</h2>
+    <p>RentControl Pro es una aplicación de gestión de alquileres. No vendemos ni compartimos sus datos con terceros. Toda la información se almacena localmente en su dispositivo.</p>
+    <h2>2. Datos que recopilamos</h2>
+    <p>La aplicación almacena únicamente los datos que usted introduce:</p>
+    <ul>
+      <li>Información de propietarios (nombre, correo electrónico)</li>
+      <li>Objetos inmobiliarios (título, alquiler, día de pago)</li>
+      <li>Información de inquilinos (nombre, teléfono, fechas de arrendamiento)</li>
+      <li>Pagos y gastos (montos, estados, fechas)</li>
+      <li>Preferencias de la aplicación (idioma, moneda, notificaciones)</li>
+    </ul>
+    <h2>3. Almacenamiento</h2>
+    <p>Todos los datos se guardan localmente en su dispositivo en una base de datos SQLite. No se envían a ningún servidor, salvo cuando usted decide enviar un informe por correo o compartir un PDF mediante la función "Compartir" del sistema.</p>
+    <h2>4. Permisos</h2>
+    <ul>
+      <li>INTERNET: para enviar correos y compartir informes</li>
+      <li>NOTIFICACIONES: para recordatorios de pagos (solo si los activa)</li>
+      <li>RECEIVE_BOOT_COMPLETED: para reanudar recordatorios tras reiniciar</li>
+    </ul>
+    <h2>5. Sus derechos</h2>
+    <ul>
+      <li>Puede eliminar todos los datos desinstalando la aplicación</li>
+      <li>No hay tracking ni publicidad</li>
+      <li>No vendemos ni cedemos datos a terceros</li>
+    </ul>
+    <h2>6. Contacto</h2>
+    <p>Si tiene preguntas, póngase en contacto con el desarrollador a través de la ficha de la aplicación en la tienda.</p>
+  </section>
+</body>
+</html>
